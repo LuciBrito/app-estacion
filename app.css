@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Montserrat:wght@300&display=swap');
+
+body{
+	background: #E0EAFC;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	margin: 0;
+	box-sizing: border-box;
+}
+*{
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+/*ESTACION*/
+
+a:link, a:visited, a:active {
+	text-decoration:none;
+	color: white;
+}
+.title{
+	text-decoration: underline;
+	color: black;
+}
+
+
+.list-estacion-title h1{
+	font-size: 20px;
+	color: black;
+
+}
+
+#list-estacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1%;
+}
+
+.btn-estacion{
+	background-color: #ddc495;
+	width: 30%;
+	height: 30%;
+	border-radius: 20px;
+	margin-top:1%;
+
+}
+
+.estacion-apodo{
+	display: flex;
+	justify-content: center;
+}
+
+.estacion-ubicacion{
+
+	padding-left:20px;
+}
+.estacion-visitas{
+	padding-left:25px;
+}
+
+.centrar{
+	display:flex;
+	align-items:center;
+}
+/*.estacion-ubicacion i{
+	position: fixed;
+	    top: 114px;
+	    margin-right: 20px;
+}
+*/
+/**/
